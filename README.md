@@ -12,6 +12,9 @@ Este projeto faz parte do Tech Challenge da Fase 2 da FIAP Pos-Tech. A proposta 
 
 ## Tecnologias previstas
 
+- Axios
+- React
+- React Router DOM
 - Node.js
 - Express
 - Banco de dados Postgres
