@@ -1,10 +1,14 @@
-# FIAP Pos-Tech - Fase 2 - Tech Challenge
+# FIAP Pos-Tech - Fase 3 (Frontend) - Tech Challenge
 
 Backend REST em Node.js para uma plataforma de blogging educacional, com CRUD de postagens, busca, persistencia em banco de dados, Docker, CI/CD e testes automatizados.
+
+(Descricao)
 
 ## Sobre o projeto
 
 Este projeto faz parte do Tech Challenge da Fase 2 da FIAP Pos-Tech. A proposta e refatorar o backend de uma aplicacao de blogging educacional, permitindo que docentes criem, editem, removam e pesquisem postagens, enquanto alunos podem consultar os conteudos publicados.
+
+(Descricao)
 
 ## Tecnologias previstas
 
@@ -17,40 +21,10 @@ Este projeto faz parte do Tech Challenge da Fase 2 da FIAP Pos-Tech. A proposta 
 
 ## Status
 
-Projeto em configuracao inicial.
-
-## 16/06
-- Ambiente limpo validado com docker compose up --build.
-- Rotas testadas:
-    - GET /health
-    - GET /database/health
-- Containers:
-    - fiap-api
-    - fiap-db
- 
-## 23/06
-- Criação tabela de POST
-- CRUD completo (Post, Get, GetById, Put, Delete)
-- Teste usando Postman
-
-## 24/06
-- CRUD (Search)
-
-## 02/07
-- Testes Automatizados:
-    - GET /health
-
-## 06/07
-- Workflow Criado
-- Pipeline básico executado
-
-## 10/07
-- Testes Automatizados:
-    - POST /posts
-    - PUT /posts
-    - DELETE /posts
-    - GET /posts
-- Cobertura mínima de testes verificada
+Projeto em desenvolvimento.
+    * Alterar descrições da Tech Challenge e Sobre o Projeto
+    * Alterar tecnologias previstas
+    * Alterar instruções 8, 9, 10, depois de alterações
 
 ## Instruções
 1. Instalar os programas necessarios (comandos para verificar)
@@ -61,10 +35,10 @@ Projeto em configuracao inicial.
     * docker compose version
 
 2. Clonar o repositório
-    * git clone https://github.com/andersonfc2/fiap-fullstack-techchallenge-fase2.git
+    * git clone https://github.com/Nat250/fiap-fullstack-techchallenge-fase3-Johannes
   
 3.  Entrar na pasta do projeto
-    * cd fiap-fullstack-techchallenge-fase
+    * cd fiap-fullstack-techchallenge-fase3-Johannes
 
 4. Instalar dependencias
     *  npm install
